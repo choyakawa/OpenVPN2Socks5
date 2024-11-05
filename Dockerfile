@@ -1,4 +1,4 @@
-FROM curve25519xsalsa20poly1305/openvpn-tunnel:latest
+FROM choyakawa/openvpn-tunnel:latest
 
 COPY openvpn2socks5_entrypoint.sh /usr/local/bin/
 
